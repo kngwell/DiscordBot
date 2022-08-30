@@ -4,9 +4,10 @@ The Slurm Factory is a Discord bot that I created to practice using the Discord.
 ### Using the bot
 
 The main purpose of this bot is to complete some basic chat commands, as well as set roles based on reactions to messages.  This will allow users to react to a pinned message in a channel in order to get roles to allow them to access other channels in the server.  For the chat commands, there are a few built in currently.  Simply type ahhh, holdon, or hello, preceded by $.  the $ is the symbol the bot listens for so it won't trigger if you just type hello.  I plan on expanding these commands further in the future.  
-![bot addressing user by name](https://i.imgur.com/209U2Vv.png "$hello command")
-![bot posting wicked witch of the east bro copypasta](https://i.imgur.com/0ofAMui.png "$holdon command")
+![bot addressing user by name](https://i.imgur.com/209U2Vv.png "$hello command")</br>
+![bot posting wicked witch of the east bro copypasta](https://i.imgur.com/0ofAMui.png "$holdon command")</br>
 ![bot screaming](https://i.imgur.com/NAER36f.png "$ahhh command")
+
 ### Bot Hosting
 
 Currently the live version of the bot is hosted using replit, as it is the simplest way to host single server bots.  If I were to grow this bot into a larger project, I would definitely move it onto a stronger hosting service like Vultr, but for now, replit is working wonderfully.
