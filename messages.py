@@ -19,6 +19,11 @@ class Messages(commands.Cog):
     async def moonmen(self, ctx):
       message = ctx.message
       await message.channel.send("if there were two guys on the moon, and one killed the other with a rock, how messed up would that be?")
+
+    @commands.command()
+    async def hello(self, ctx):
+      message = ctx.message
+      await message.channel.send(f"hello {message.author.name}")
       
 async def setup(client):
  await client.add_cog(Messages(client))
