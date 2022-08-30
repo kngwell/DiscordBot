@@ -8,7 +8,8 @@ class Reactions(commands.Cog):
       self.role_message_id = 1013340925591818311  
       self.emoji_to_role = {
             discord.PartialEmoji(name='🖥️'): 1013301538774597682,
-            discord.PartialEmoji(name='🟡'): 1013301344368607262,  
+            discord.PartialEmoji(name='⌨️'): 1013301344368607262,  
+            discord.PartialEmoji(name='🐍'): 1013301281521139732,  
         }
 
     @commands.Cog.listener()
